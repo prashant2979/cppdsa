@@ -30,5 +30,19 @@ int main()
     cout<<v.capacity()<<endl;
 
 
+    vector<int>a(6,10);
+    cout<<"print v"<<endl;
+    for(int i:a){
+        cout<<i<<" ";
+    }
+    // cout<<v.capacity()<<endl;
+    vector<int>last(a);
+    cout<<"lasst"<<" ";
+    for(int i:a){
+        cout<<i<<"" <<endl;
+
+    }
+
+
     return 0;
 }
